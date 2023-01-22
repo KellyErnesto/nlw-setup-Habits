@@ -30,14 +30,10 @@ O Habits é um app que ajuda a rastrear os hábitos.
 
 - [Acesse o projeto finalizado, online](https://kellyernesto.github.io/nlw-setup-Habits/)
 
-## 📑 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](). É necessário ter conta no [Figma]() para acessá-lo.
-
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com 💜 by Rocketseat
+Feito juntamente com Rocketseat 💜
