@@ -16,14 +16,14 @@ function add() {
 }
 
 function save() {
-  //localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data)) || {}
+  localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data)) || {}
 }
-const data = {
-run: ['01-01', '01-02', '01-03', '01-04', '01-05', '01-06', '01-07', '01-08', '01-09', '01-10', '01-11', '01-12', '01-13', '01-14', '01-15', '01-16'],
-journal: ['01-02','01-03', '01-09'],
-food: ['01-01', '01-02', '01-04', '01-08']
-}
+//const data = {
+//run: ['01-01', '01-02', '01-03', '01-04', '01-05', '01-06', '01-07', '01-08', '01-09', '01-10', '01-11', '01-12', '01-13', '01-14', '01-15', '01-16'],
+//journal: ['01-02','01-03', '01-09'],
+//food: ['01-01', '01-02', '01-04', '01-08']
+//}
 
-//const data = JSON.parse(localStorage.getItem("NLWSetup@habits"))
+const data = JSON.parse(localStorage.getItem("NLWSetup@habits"))
 nlwSetup.setData(data)
 nlwSetup.load()
